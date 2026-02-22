@@ -96,8 +96,8 @@ export const products: Product[] = [
   },
   {
     id: '3',
-    name: 'Jeans Reciclado Premium',
-    slug: 'jeans-reciclado-premium',
+    name: 'Jeans Reutilizáveis Premium',
+    slug: 'jeans-reutilizaveis-premium',
     description:
       'Denim de alta qualidade proveniente de uniformes industriais. Ideal para confecção de bolsas, aventais, capas e projetos de upcycling. Diversos tons de azul.',
     origin: 'Uniformes Industriais',
@@ -113,10 +113,10 @@ export const products: Product[] = [
   },
   {
     id: '4',
-    name: 'Lycra Colorida Reciclada',
-    slug: 'lycra-colorida-reciclada',
+    name: 'Lycra Colorida Reutilizado',
+    slug: 'lycra-colorida-reutilizada',
     description:
-      'Lycra elástica reciclada de fantasias e roupas de eventos. Ótima para confecção de roupas fitness, fantasias, e projetos de costura que precisam de elasticidade.',
+      'Lycra elástica reutilizada de fantasias e roupas de eventos. Ótima para confecção de roupas fitness, fantasias, e projetos de costura que precisam de elasticidade.',
     origin: 'Fantasias e Eventos',
     category: 'carnaval',
     pricePerKg: 28.0,
