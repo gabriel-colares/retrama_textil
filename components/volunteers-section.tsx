@@ -109,11 +109,7 @@ export function VolunteersSection() {
         </div>
 
         <div className="mt-12 text-center">
-          <a
-            href="https://wa.me/5592992214370?text=Olá! Tenho interesse em ser voluntário(a) no projeto RETRAMA."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/voluntarios">
             <Button
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 text-base px-8 h-12 gap-2"
@@ -123,7 +119,7 @@ export function VolunteersSection() {
             </Button>
           </a>
           <p className="mt-4 text-xs text-muted-foreground">
-            Envie uma mensagem pelo WhatsApp e junte-se ao time RETRAMA.
+            Preencha o formulario e junte-se ao time RETRAMA.
           </p>
         </div>
       </div>
