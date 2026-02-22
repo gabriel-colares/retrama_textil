@@ -100,11 +100,7 @@ export function PartnersSection() {
         </div>
 
         <div className="mt-12 text-center">
-          <a
-            href="https://wa.me/5592992214370?text=Olá! Minha empresa tem interesse em ser parceira do projeto RETRAMA."
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/parceiros">
             <Button
               size="lg"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90 text-base px-8 h-12 gap-2"
@@ -114,7 +110,7 @@ export function PartnersSection() {
             </Button>
           </a>
           <p className="mt-4 text-xs text-primary-foreground/40">
-            Entre em contato pelo WhatsApp e converse com nossa equipe.
+            Preencha o formulario e torne-se um parceiro RETRAMA.
           </p>
         </div>
       </div>
