@@ -5,7 +5,7 @@ import { Footer } from '@/components/footer'
 export const metadata = {
   title: 'Quem Somos | RETRAMA Amazonia',
   description:
-    'Conheca a RETRAMA Amazonia: nossa historia, proposito e compromisso com a economia circular.',
+    'Conheça a RETRAMA Amazonia: nossa historia, proposito e compromisso com a economia circular.',
 }
 
 export default function QuemSomosPage() {
@@ -22,7 +22,7 @@ export default function QuemSomosPage() {
               RETRAMA Amazonia
             </h1>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl">
-              Transformamos residuos texteis em materia-prima criativa, conectando
+              Transformamos resíduos têxteis em materia-prima criativa, conectando
               industria e artesanato com impacto real para o planeta.
             </p>
           </div>
@@ -47,7 +47,7 @@ export default function QuemSomosPage() {
                 <p className="mt-3 text-muted-foreground leading-relaxed">
                   Acreditamos que o futuro da moda e da criatividade passa pela
                   economia circular. Por isso, damos um novo destino a tecidos que
-                  seriam descartados, colocando em circulacao materiais com historia
+                  seriam descartados, colocando em circulação materiais com historia
                   e qualidade.
                 </p>
               </div>
@@ -58,8 +58,8 @@ export default function QuemSomosPage() {
                     O que fazemos
                   </p>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                    Triagem, preparacao e venda de tecidos reciclados por quilo para
-                    artesas, costureiras e pequenos negocios.
+                    Triagem, preparação e venda de tecidos reciclados por quilo para
+                    artesas, costureiras e pequenos negócios.
                   </p>
                 </div>
                 <div className="rounded-2xl bg-card border border-border p-6">
@@ -68,7 +68,7 @@ export default function QuemSomosPage() {
                   </p>
                   <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
                     Menos descarte, mais criatividade. Cada compra ajuda a reduzir
-                    residuos e incentivar producoes mais conscientes.
+                    resíduos e incentivar produções mais conscientes.
                   </p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function QuemSomosPage() {
                   Nosso compromisso
                 </p>
                 <p className="mt-3 text-muted-foreground leading-relaxed">
-                  Transparencia no processo, respeito aos materiais e foco em
+                  Transparência no processo, respeito aos materiais e foco em
                   acessibilidade para quem cria. Queremos que voce encontre o tecido
                   certo e transforme ideias em produtos com identidade.
                 </p>

@@ -184,7 +184,7 @@ export const products: Product[] = [
     name: 'Mix Textil Surpresa',
     slug: 'mix-textil-surpresa',
     description:
-      'Pacote surpresa com diversos tipos de tecidos reciclados. Uma otima opcao para quem busca variedade e inspiracao. Cada pacote e unico e contem diferentes cores e texturas.',
+      'Pacote surpresa com diversos tipos de tecidos reciclados. Uma otima opcao para quem busca variedade e inspiração. Cada pacote e unico e contem diferentes cores e texturas.',
     origin: 'Diversas Origens',
     category: 'industrial',
     pricePerKg: 12.0,

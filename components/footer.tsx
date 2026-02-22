@@ -25,7 +25,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-primary-foreground/60 leading-relaxed">
-              Transformando residuos texteis em materia-prima criativa e sustentavel.
+              Transformando resíduos têxteis em materia-prima criativa e sustentavel.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/catalogo" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
-                  Catalogo
+                  Catálogo
                 </Link>
               </li>
               <li>

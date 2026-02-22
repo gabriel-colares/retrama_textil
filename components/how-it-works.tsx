@@ -8,19 +8,19 @@ const steps = [
     icon: Truck,
     title: 'Coleta',
     description:
-      'Coletamos fardas industriais, fantasias carnavalescas e residuos texteis de eventos sazonais.',
+      'Coletamos fantasias, alegorias e materiais têxteis empresariais.',
   },
   {
     icon: Recycle,
-    title: 'Reciclagem',
+    title: 'Curadoria',
     description:
-      'Os tecidos passam por triagem, limpeza e preparacao para revenda em otimas condicoes.',
+      'Os tecidos passam por triagem, limpeza e preparacão para revenda em otimas condicões.',
   },
   {
     icon: Scissors,
     title: 'Classificacao',
     description:
-      'Separamos por tipo de tecido, cor e composicao para facilitar a escolha dos nossos clientes.',
+      'Separamos por tipo de tecido, cor e composicão para facilitar a escolha dos nossos clientes.',
   },
   {
     icon: ShoppingBag,

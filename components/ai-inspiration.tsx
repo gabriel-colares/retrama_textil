@@ -427,7 +427,7 @@ export function AIInspiration({ product }: { product: Product }) {
                       {product.name}
                     </p>
                     <p className="mt-1">
-                      <strong className="text-foreground">Composicao:</strong>{' '}
+                      <strong className="text-foreground">Composição:</strong>{' '}
                       {product.composition}
                     </p>
                     <p className="mt-1">

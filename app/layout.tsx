@@ -8,7 +8,7 @@ const spaceMono = Space_Mono({ weight: ['400', '700'], subsets: ['latin'], varia
 
 export const metadata: Metadata = {
   title: 'RETRAMA Amazonia | Marketplace de Tecidos Reciclados',
-  description: 'Marketplace de tecidos reciclados de fardas industriais e fantasias carnavalescas. Compre tecidos por quilo para artesanato, costura e pequenos negocios.',
+  description: 'Marketplace de tecidos reciclados de fardas industriais e fantasias carnavalescas. Compre tecidos por quilo para artesanato, costura e pequenos negócios.',
   generator: 'v0.app',
   icons: {
     icon: [

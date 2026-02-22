@@ -97,13 +97,13 @@ export function Navbar() {
             href="/"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
-            Inicio
+            Início
           </Link>
           <Link
             href="/catalogo"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
-            Catalogo
+            Catálogo
           </Link>
           <Link
             href="/#como-funciona"
@@ -166,14 +166,14 @@ export function Navbar() {
               className="text-sm font-medium text-foreground py-2"
               onClick={() => setIsOpen(false)}
             >
-              Inicio
+              Início
             </Link>
             <Link
               href="/catalogo"
               className="text-sm font-medium text-foreground py-2"
               onClick={() => setIsOpen(false)}
             >
-              Catalogo
+              Catálogo
             </Link>
             <Link
               href="#como-funciona"
@@ -233,7 +233,7 @@ export function Navbar() {
           <DialogHeader>
             <DialogTitle>Buscar tecidos</DialogTitle>
             <DialogDescription>
-              Busque por nome, descricao ou tags.
+              Busque por nome, descrição ou tags.
             </DialogDescription>
           </DialogHeader>
           <div className="flex gap-3">

@@ -62,8 +62,8 @@ export function Hero() {
             data-animate
             className="mt-6 text-lg md:text-xl text-primary-foreground/80 leading-relaxed max-w-lg"
           >
-            Transformamos fardas industriais e fantasias carnavalescas em
-            materia-prima para artesaos, costureiras e pequenos negocios.
+            Transformamos fantasias, alegorias e materiais têxteis empresariais em
+            materia-prima para artesãos, costureiras e pequenos negócios.
           </p>
 
           <div data-animate className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -72,7 +72,7 @@ export function Hero() {
                 size="lg"
                 className="bg-secondary text-secondary-foreground hover:bg-secondary/90 text-base px-8 h-12 gap-2"
               >
-                Explorar Catalogo
+                Explorar Catálogo
                 <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>

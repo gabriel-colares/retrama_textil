@@ -158,7 +158,7 @@ export function ProductDetail({ product }: { product: Product }) {
             <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
               <Layers className="w-5 h-5 text-primary shrink-0 mt-0.5" />
               <div>
-                <p className="text-xs text-muted-foreground">Composicao</p>
+                <p className="text-xs text-muted-foreground">Composição</p>
                 <p className="text-sm font-medium text-foreground">
                   {product.composition}
                 </p>
@@ -176,7 +176,7 @@ export function ProductDetail({ product }: { product: Product }) {
             <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
               <Package className="w-5 h-5 text-primary shrink-0 mt-0.5" />
               <div>
-                <p className="text-xs text-muted-foreground">Disponivel</p>
+                <p className="text-xs text-muted-foreground">Disponível</p>
                 <p className="text-sm font-medium text-foreground">
                   {available.toFixed(0)} {getUnitLabel(unit)} em estoque
                 </p>
@@ -185,7 +185,7 @@ export function ProductDetail({ product }: { product: Product }) {
             <div className="flex items-start gap-3 p-4 rounded-xl bg-muted/50">
               <Tag className="w-5 h-5 text-primary shrink-0 mt-0.5" />
               <div>
-                <p className="text-xs text-muted-foreground">Minimo</p>
+                <p className="text-xs text-muted-foreground">Mínimo</p>
                 <p className="text-sm font-medium text-foreground">
                   {min.toFixed(1)} {getUnitLabel(unit)}
                 </p>
@@ -235,8 +235,8 @@ export function ProductDetail({ product }: { product: Product }) {
             <Button
               size="lg"
               className={`h-12 gap-2 text-base transition-all duration-300 ${addedToCart
-                  ? 'bg-green-600 text-white hover:bg-green-600'
-                  : 'bg-primary text-primary-foreground hover:bg-primary/90'
+                ? 'bg-green-600 text-white hover:bg-green-600'
+                : 'bg-primary text-primary-foreground hover:bg-primary/90'
                 }`}
               onClick={handleAddToCart}
             >

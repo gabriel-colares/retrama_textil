@@ -46,8 +46,8 @@ export function CTASection() {
         </h2>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
           Ao visualizar qualquer tecido, nossa inteligencia artificial sugere
-          projetos e cria imagens do que voce pode fazer. Transforme inspiracao
-          em acao.
+          projetos e cria imagens do que voce pode fazer. Transforme inspiração
+          em ação.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/catalogo">

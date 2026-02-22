@@ -25,10 +25,10 @@ export async function POST(req: Request) {
 O cliente tem o seguinte tecido reciclado:
 - Nome: ${fabricName}
 - Descricao: ${fabricDescription}
-- Composicao: ${fabricComposition}
+- Composição: ${fabricComposition}
 - Cores disponiveis: ${fabricColors}
 
-Sugira 4 projetos criativos e praticos que podem ser feitos com esse tecido. Considere projetos para artesaos, costureiras e pequenos negocios. Inclua projetos de diferentes niveis de dificuldade.
+Sugira 4 projetos criativos e praticos que podem ser feitos com esse tecido. Considere projetos para artesaos, costureiras e pequenos negócios. Inclua projetos de diferentes niveis de dificuldade.
 
 Para o campo imagePrompt, escreva em ingles um prompt detalhado para gerar uma imagem realista do produto finalizado, como se fosse uma foto de produto para e-commerce, com fundo clean e boa iluminacao.`,
   })
