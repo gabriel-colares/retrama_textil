@@ -9,19 +9,19 @@ const benefits = [
     icon: Leaf,
     title: 'Responsabilidade Ambiental',
     description:
-      'Destine seus residuos texteis de forma sustentavel e reduza o impacto ambiental da sua empresa.',
+      'Destine seus resíduos têxteis de forma sustentável e reduza o impacto ambiental da sua empresa.',
   },
   {
     icon: Handshake,
     title: 'Impacto Social',
     description:
-      'Contribua para a geracao de renda de artesaos e costureiras da regiao amazonica.',
+      'Contribua para a geração de renda de artesãos e costureiras da região amazónica.',
   },
   {
     icon: Building2,
     title: 'Selo de Parceiro',
     description:
-      'Receba o selo RETRAMA de parceiro sustentavel e fortaleça a imagem da sua marca.',
+      'Receba o selo RETRAMA de parceiro sustentável e fortaleça a imagem da sua marca.',
   },
 ]
 
@@ -72,9 +72,9 @@ export function PartnersSection() {
             Sua empresa pode fazer parte
           </h2>
           <p className="mt-4 text-primary-foreground/70 text-lg leading-relaxed">
-            Empresas que geram residuos texteis podem doar materiais e se tornar
+            Empresas que geram resíduos têxteis podem doar materiais e se tornar
             parceiras do projeto RETRAMA, contribuindo para a economia circular
-            na Amazonia.
+            na Amazônia.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export function PartnersSection() {
             </Button>
           </a>
           <p className="mt-4 text-xs text-primary-foreground/40">
-            Preencha o formulario e torne-se um parceiro RETRAMA.
+            Preencha o formulário e torne-se um parceiro RETRAMA.
           </p>
         </div>
       </div>

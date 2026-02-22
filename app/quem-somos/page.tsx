@@ -19,11 +19,11 @@ export default function QuemSomosPage() {
               Quem Somos
             </p>
             <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">
-              RETRAMA Amazonia
+              RETRAMA Amazônia
             </h1>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl">
-              Transformamos resíduos têxteis em materia-prima criativa, conectando
-              industria e artesanato com impacto real para o planeta.
+              Transformamos resíduos têxteis em matéria-prima criativa, conectando
+              indústria e artesanato com impacto real para o planeta.
             </p>
           </div>
 
@@ -42,7 +42,7 @@ export default function QuemSomosPage() {
             <div className="flex flex-col gap-6">
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">
-                  Nosso proposito
+                  Nosso propósito
                 </h2>
                 <p className="mt-3 text-muted-foreground leading-relaxed">
                   Acreditamos que o futuro da moda e da criatividade passa pela
@@ -79,7 +79,7 @@ export default function QuemSomosPage() {
                 </p>
                 <p className="mt-3 text-muted-foreground leading-relaxed">
                   Transparência no processo, respeito aos materiais e foco em
-                  acessibilidade para quem cria. Queremos que voce encontre o tecido
+                  acessibilidade para quem cria. Queremos que você encontre o tecido
                   certo e transforme ideias em produtos com identidade.
                 </p>
               </div>

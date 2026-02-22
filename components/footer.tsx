@@ -25,18 +25,18 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-primary-foreground/60 leading-relaxed">
-              Transformando resíduos têxteis em materia-prima criativa e sustentavel.
+              Transformando resíduos têxteis em matéria-prima criativa e sustentável.
             </p>
           </div>
 
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider mb-4 text-primary-foreground/80">
-              Navegacao
+              Navegação
             </h4>
             <ul className="flex flex-col gap-3">
               <li>
                 <Link href="/" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
-                  Inicio
+                  Início
                 </Link>
               </li>
               <li>
@@ -56,7 +56,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/#voluntarios" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
-                  Voluntarios
+                  Voluntários
                 </Link>
               </li>
               <li>
@@ -74,7 +74,7 @@ export function Footer() {
             <ul className="flex flex-col gap-3">
               <li>
                 <Link href="/catalogo?cat=industrial" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
-                  Fardas Industriais
+                  Materiais Empresariais
                 </Link>
               </li>
               <li>

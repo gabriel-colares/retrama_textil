@@ -121,7 +121,7 @@ export function Navbar() {
             href="/#voluntarios"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
-            Voluntarios
+            Voluntários
           </Link>
           <Link
             href="/quem-somos"

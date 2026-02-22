@@ -7,27 +7,27 @@ import { Button } from '@/components/ui/button'
 const roles = [
   {
     icon: Paintbrush,
-    title: 'Design e Criacao',
+    title: 'Design e Criação',
     description:
-      'Ajude a criar novos produtos e a desenvolver padroes e combinacoes com os tecidos reaproveitados.',
+      'Ajude a criar novos produtos e a desenvolver padrões e combinações com os tecidos reaproveitados.',
   },
   {
     icon: Megaphone,
-    title: 'Comunicacao e Redes',
+    title: 'Comunicação e Redes',
     description:
-      'Contribua com a divulgacao do projeto, producao de conteudo e gestao das redes sociais.',
+      'Contribua com a divulgação do projeto, produção de conteúdo e gestão das redes sociais.',
   },
   {
     icon: Users,
-    title: 'Operacoes e Logistica',
+    title: 'Operações e Logística',
     description:
-      'Participe da triagem, classificacao e preparacao dos materiais texteis para venda.',
+      'Participe da triagem, classificação e preparação dos materiais têxteis para venda.',
   },
   {
     icon: Heart,
-    title: 'Educacao e Oficinas',
+    title: 'Educação e Oficinas',
     description:
-      'Ensine tecnicas de costura, artesanato e reaproveitamento em oficinas comunitarias.',
+      'Ensine técnicas de costura, artesanato e reaproveitamento em oficinas comunitárias.',
   },
 ]
 
@@ -75,12 +75,12 @@ export function VolunteersSection() {
             Voluntariado
           </p>
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground text-balance">
-            Faca parte da mudanca
+            Faça parte da mudança
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-            O projeto RETRAMA e feito por pessoas. Se voce acredita na moda
-            sustentavel e quer contribuir com suas habilidades, temos um lugar
-            para voce.
+            O projeto RETRAMA é feito por pessoas. Se você acredita na moda
+            sustentável e quer contribuir com suas habilidades, temos um lugar
+            para você.
           </p>
         </div>
 
@@ -119,7 +119,7 @@ export function VolunteersSection() {
             </Button>
           </a>
           <p className="mt-4 text-xs text-muted-foreground">
-            Preencha o formulario e junte-se ao time RETRAMA.
+            Preencha o formulário e junte-se ao time RETRAMA.
           </p>
         </div>
       </div>
