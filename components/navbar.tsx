@@ -112,6 +112,18 @@ export function Navbar() {
             Como Funciona
           </Link>
           <Link
+            href="/#empresas"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Empresas
+          </Link>
+          <Link
+            href="/#voluntarios"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Voluntarios
+          </Link>
+          <Link
             href="/quem-somos"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
@@ -181,6 +193,20 @@ export function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Como Funciona
+            </Link>
+            <Link
+              href="#empresas"
+              className="text-sm font-medium text-foreground py-2"
+              onClick={() => setIsOpen(false)}
+            >
+              Empresas
+            </Link>
+            <Link
+              href="#voluntarios"
+              className="text-sm font-medium text-foreground py-2"
+              onClick={() => setIsOpen(false)}
+            >
+              Voluntarios
             </Link>
             <Link
               href="/quem-somos"

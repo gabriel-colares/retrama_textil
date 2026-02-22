@@ -50,6 +50,16 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/#empresas" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                  Empresas Parceiras
+                </Link>
+              </li>
+              <li>
+                <Link href="/#voluntarios" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                  Voluntarios
+                </Link>
+              </li>
+              <li>
                 <Link href="/quem-somos" className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                   Quem Somos
                 </Link>

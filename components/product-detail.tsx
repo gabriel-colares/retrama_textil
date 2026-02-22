@@ -13,6 +13,8 @@ import {
   Palette,
   Package,
   Check,
+  Info,
+  X,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -36,8 +38,16 @@ export function ProductDetail({ product }: { product: Product }) {
   const { addItem } = useCart()
   const [quantity, setQuantity] = useState(() => minByUnit(product, unit))
   const [addedToCart, setAddedToCart] = useState(false)
+  const [showDisclaimer, setShowDisclaimer] = useState(true)
   const detailRef = useRef<HTMLDivElement>(null)
   const prevUnitRef = useRef<Unit>(unit)
+
+  useEffect(() => {
+    if (showDisclaimer) {
+      const timer = setTimeout(() => setShowDisclaimer(false), 8000)
+      return () => clearTimeout(timer)
+    }
+  }, [showDisclaimer])
 
   useEffect(() => {
     const el = detailRef.current
@@ -135,6 +145,24 @@ export function ProductDetail({ product }: { product: Product }) {
               ou R$ {pricePerUnit(product, otherUnit).toFixed(2)} por{' '}
               {getUnitLabel(otherUnit)}
             </p>
+
+            {showDisclaimer && (
+              <div className="mt-3 flex items-start gap-2.5 rounded-xl border border-secondary/30 bg-secondary/5 px-4 py-3 animate-in fade-in slide-in-from-top-2 duration-300">
+                <Info className="w-4 h-4 text-secondary shrink-0 mt-0.5" />
+                <p className="text-xs leading-relaxed text-muted-foreground">
+                  <span className="font-semibold text-foreground">Aviso:</span>{' '}
+                  Os valores exibidos sao fictícios e meramente ilustrativos.
+                  Os precos reais serao informados no momento da compra.
+                </p>
+                <button
+                  onClick={() => setShowDisclaimer(false)}
+                  className="shrink-0 text-muted-foreground hover:text-foreground transition-colors"
+                  aria-label="Fechar aviso"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            )}
           </div>
 
           <Separator className="my-6" />
