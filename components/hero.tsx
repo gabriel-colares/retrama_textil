@@ -1,10 +1,10 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { ArrowRight, Recycle, Leaf, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { ArrowRight, Recycle } from 'lucide-react'
+import Image from 'next/image'
+import Link from 'next/link'
+import { useEffect, useRef } from 'react'
 
 export function Hero() {
   const heroRef = useRef<HTMLElement>(null)
@@ -46,7 +46,7 @@ export function Hero() {
           <div data-animate className="flex items-center gap-2 mb-6">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary/20 px-4 py-1.5 text-sm font-medium text-primary-foreground backdrop-blur-sm border border-secondary/30">
               <Recycle className="w-4 h-4" />
-              Moda Circular e Sustentavel
+              Moda Circular e Sustentável
             </span>
           </div>
 

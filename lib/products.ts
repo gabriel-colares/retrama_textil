@@ -62,10 +62,10 @@ export const categories = [
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Algodao Industrial Misto',
+    name: 'Algodão Industrial Misto',
     slug: 'algodao-industrial-misto',
     description:
-      'Tecido de algodao reciclado proveniente de fardas industriais. Excelente para projetos de artesanato, patchwork e confeccao de bolsas e acessorios. Material resistente e de alta durabilidade.',
+      'Tecido de algodão reutilizáveis proveniente de fardas industriais. Excelente para projetos de artesanato, patchwork e confecção de bolsas e acessórios. Material resistente e de alta durabilidade.',
     origin: 'Fardas Industriais',
     category: 'industrial',
     pricePerKg: 18.9,
@@ -74,7 +74,7 @@ export const products: Product[] = [
     availableKg: 250,
     image: '/images/algodao-industrial.jpg',
     colors: ['Bege', 'Caqui', 'Cinza'],
-    composition: '80% Algodao, 20% Poliester',
+    composition: '80% Algodão, 20% Poliéster',
     tags: ['resistente', 'artesanato', 'patchwork'],
   },
   {
@@ -82,7 +82,7 @@ export const products: Product[] = [
     name: 'Paete e Brilhos Carnavalescos',
     slug: 'paete-brilhos-carnavalescos',
     description:
-      'Tecidos com paetes e brilhos provenientes de fantasias de carnaval. Perfeito para customizacao de roupas, decoracao de festas e projetos artisticos. Cores vibrantes e chamativas.',
+      'Tecidos com paetês e brilhos provenientes de fantasias de carnaval. Perfeito para customização de roupas, decoração de festas e projetos artísticos. Cores vibrantes e chamativas.',
     origin: 'Fantasias de Carnaval',
     category: 'carnaval',
     pricePerKg: 32.5,
@@ -91,15 +91,15 @@ export const products: Product[] = [
     availableKg: 80,
     image: '/images/paete-carnaval.jpg',
     colors: ['Dourado', 'Vermelho', 'Azul', 'Verde'],
-    composition: '100% Poliester com Paetes',
-    tags: ['brilhante', 'festas', 'decoracao'],
+    composition: '100% Poliéster com Paetês',
+    tags: ['brilhante', 'festas', 'decoração'],
   },
   {
     id: '3',
     name: 'Jeans Reciclado Premium',
     slug: 'jeans-reciclado-premium',
     description:
-      'Denim de alta qualidade proveniente de uniformes industriais. Ideal para confeccao de bolsas, aventais, capas e projetos de upcycling. Diversos tons de azul.',
+      'Denim de alta qualidade proveniente de uniformes industriais. Ideal para confecção de bolsas, aventais, capas e projetos de upcycling. Diversos tons de azul.',
     origin: 'Uniformes Industriais',
     category: 'jeans',
     pricePerKg: 22.0,
@@ -108,7 +108,7 @@ export const products: Product[] = [
     availableKg: 180,
     image: '/images/jeans-reciclado.jpg',
     colors: ['Azul Claro', 'Azul Escuro', 'Indigo'],
-    composition: '100% Algodao Denim',
+    composition: '100% Algodão Denim',
     tags: ['denim', 'upcycling', 'bolsas'],
   },
   {
@@ -116,7 +116,7 @@ export const products: Product[] = [
     name: 'Lycra Colorida Reciclada',
     slug: 'lycra-colorida-reciclada',
     description:
-      'Lycra elastica reciclada de fantasias e roupas de eventos. Otima para confeccao de roupas fitness, fantasias, e projetos de costura que precisam de elasticidade.',
+      'Lycra elástica reciclada de fantasias e roupas de eventos. Ótima para confecção de roupas fitness, fantasias, e projetos de costura que precisam de elasticidade.',
     origin: 'Fantasias e Eventos',
     category: 'carnaval',
     pricePerKg: 28.0,
@@ -133,7 +133,7 @@ export const products: Product[] = [
     name: 'Poliester de Uniforme',
     slug: 'poliester-uniforme',
     description:
-      'Poliester liso proveniente de uniformes corporativos. Material leve, de facil manuseio e ideal para forros, sacolas retornaveis e projetos de costura praticos.',
+      'Poliéster liso proveniente de uniformes corporativos. Material leve, de fácil manuseio e ideal para forros, sacolas retornáveis e projetos de costura práticos.',
     origin: 'Uniformes Corporativos',
     category: 'industrial',
     pricePerKg: 15.5,
@@ -142,7 +142,7 @@ export const products: Product[] = [
     availableKg: 300,
     image: '/images/poliester-uniforme.jpg',
     colors: ['Azul Marinho', 'Chumbo'],
-    composition: '100% Poliester',
+    composition: '100% Poliéster',
     tags: ['leve', 'sacolas', 'forros'],
   },
   {
@@ -150,7 +150,7 @@ export const products: Product[] = [
     name: 'Tule de Fantasia',
     slug: 'tule-fantasia',
     description:
-      'Tule leve e delicado proveniente de fantasias e decoracoes de eventos. Perfeito para projetos de decoracao, arranjos florais, fantasias infantis e artesanato.',
+      'Tule leve e delicado proveniente de fantasias e decorações de eventos. Perfeito para projetos de decoração, arranjos florais, fantasias infantis e artesanato.',
     origin: 'Fantasias de Eventos',
     category: 'eventos',
     pricePerKg: 25.0,
@@ -159,16 +159,16 @@ export const products: Product[] = [
     availableKg: 60,
     image: '/images/tule-fantasia.jpg',
     colors: ['Branco', 'Rosa Claro', 'Lilas'],
-    composition: '100% Poliester Tule',
-    tags: ['delicado', 'decoracao', 'infantil'],
+    composition: '100% Poliéster Tule',
+    tags: ['delicado', 'decoração', 'infantil'],
   },
   {
     id: '7',
     name: 'Cetim de Evento',
     slug: 'cetim-evento',
     description:
-      'Cetim brilhante reciclado de decoracoes de eventos e festas. Excelente para forros de almofadas, projetos de decoracao de interiores e confeccao de acessorios elegantes.',
-    origin: 'Decoracao de Eventos',
+      'Cetim brilhante reutilizado de decorações de eventos e festas. Excelente para forros de almofadas, projetos de decoração de interiores e confecção de acessórios elegantes.',
+    origin: 'Decoração de Eventos',
     category: 'eventos',
     pricePerKg: 27.0,
     gsm: 130,
@@ -176,15 +176,15 @@ export const products: Product[] = [
     availableKg: 90,
     image: '/images/cetim-evento.jpg',
     colors: ['Esmeralda', 'Bordô', 'Dourado'],
-    composition: '100% Poliester Cetim',
-    tags: ['elegante', 'decoracao', 'almofadas'],
+    composition: '100% Poliéster Cetim',
+    tags: ['elegante', 'decoração', 'almofadas'],
   },
   {
     id: '8',
     name: 'Mix Textil Surpresa',
     slug: 'mix-textil-surpresa',
     description:
-      'Pacote surpresa com diversos tipos de tecidos reciclados. Uma otima opcao para quem busca variedade e inspiração. Cada pacote e unico e contem diferentes cores e texturas.',
+      'Pacote surpresa com diversos tipos de tecidos reutilizados. Uma ótima opção para quem busca variedade e inspiração. Cada pacote e único e contem diferentes cores e texturas.',
     origin: 'Diversas Origens',
     category: 'industrial',
     pricePerKg: 12.0,
@@ -194,6 +194,6 @@ export const products: Product[] = [
     image: '/images/hero-textiles.jpg',
     colors: ['Variadas'],
     composition: 'Misto',
-    tags: ['surpresa', 'variedade', 'economico'],
+    tags: ['surpresa', 'variedade', 'económico'],
   },
 ]

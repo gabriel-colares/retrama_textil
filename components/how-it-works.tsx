@@ -14,19 +14,19 @@ const steps = [
     icon: Recycle,
     title: 'Curadoria',
     description:
-      'Os tecidos passam por triagem, limpeza e preparacão para revenda em otimas condicões.',
+      'Os tecidos passam por triagem, limpeza e preparação para revenda em ótimas condições.',
   },
   {
     icon: Scissors,
-    title: 'Classificacao',
+    title: 'Classificação',
     description:
-      'Separamos por tipo de tecido, cor e composicão para facilitar a escolha dos nossos clientes.',
+      'Separamos por tipo de tecido, cor e composição para facilitar a escolha dos nossos clientes.',
   },
   {
     icon: ShoppingBag,
     title: 'Venda por m²',
     description:
-      'Voce compra a quantidade que precisa por metro quadrado, com opcao de comprar por quilo.',
+      'Voce compra a quantidade que precisa por metro quadrado, com opção de comprar por quilo.',
   },
 ]
 
@@ -77,7 +77,7 @@ export function HowItWorks() {
             Como funciona
           </h2>
           <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-            Do descarte a criacao, nosso processo e simples e transparente.
+            Do descarte a criação, nosso processo e simples e transparente.
           </p>
         </div>
 
