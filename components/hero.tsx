@@ -28,12 +28,12 @@ export function Hero() {
   return (
     <section
       ref={heroRef}
-      className="relative min-h-screen flex items-center overflow-hidden"
+      className="relative min-h-screen flex items-center overflow-hidden py-18"
     >
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-textiles.jpg"
-          alt="Tecidos reciclados coloridos"
+          alt="Tecidos reaproveitados coloridos"
           fill
           className="object-cover"
           priority
@@ -52,9 +52,9 @@ export function Hero() {
 
           <h1
             data-animate
-            className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-primary-foreground leading-[1.1] text-balance"
+            className="text-4xl md:text-6xl font-bold tracking-tight text-primary-foreground leading-[1.1] text-balance"
           >
-            Tecidos reciclados para criar{' '}
+            Tecidos reaproveitados para criar{' '}
             <span className="text-secondary">sem limites</span>
           </h1>
 
@@ -85,36 +85,6 @@ export function Hero() {
                 Como Funciona
               </Button>
             </Link>
-          </div>
-
-          <div
-            data-animate
-            className="mt-16 grid grid-cols-3 gap-6 max-w-md"
-          >
-            <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-secondary">
-                12t+
-              </p>
-              <p className="text-xs md:text-sm text-primary-foreground/60 mt-1">
-                Tecidos reciclados
-              </p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-secondary">
-                500+
-              </p>
-              <p className="text-xs md:text-sm text-primary-foreground/60 mt-1">
-                Clientes ativos
-              </p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl md:text-3xl font-bold text-secondary">
-                8
-              </p>
-              <p className="text-xs md:text-sm text-primary-foreground/60 mt-1">
-                Tipos de tecido
-              </p>
-            </div>
           </div>
         </div>
       </div>

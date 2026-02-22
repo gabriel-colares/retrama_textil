@@ -86,13 +86,13 @@ export function Footer() {
             </h4>
             <ul className="flex flex-col gap-3">
               <li className="text-sm text-primary-foreground/60">
-                contato@RETRAMA.com.br
+                contato@retrama.shop
               </li>
               <li className="text-sm text-primary-foreground/60">
-                (11) 99999-0000
+                (92) 99221-4370
               </li>
               <li className="text-sm text-primary-foreground/60">
-                Sao Paulo, SP
+                Manaus, AM
               </li>
             </ul>
           </div>
