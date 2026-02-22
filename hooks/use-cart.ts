@@ -19,6 +19,9 @@ const CART_EVENT = 'retrama:cart'
 // ✅ snapshot estável para SSR / hydration
 const EMPTY_CART: CartState = { items: [] }
 
+let lastRawCart: string | null = null
+let lastParsedCart: CartState = EMPTY_CART
+
 function safeParseCart(raw: string | null): CartState {
   if (!raw) return EMPTY_CART
 
@@ -54,7 +57,13 @@ function safeParseCart(raw: string | null): CartState {
 
 function safeReadCart(): CartState {
   if (typeof window === 'undefined') return EMPTY_CART
-  return safeParseCart(window.localStorage.getItem(CART_KEY))
+
+  const raw = window.localStorage.getItem(CART_KEY)
+  if (raw === lastRawCart) return lastParsedCart
+
+  lastRawCart = raw
+  lastParsedCart = safeParseCart(raw)
+  return lastParsedCart
 }
 
 function getServerCartSnapshot(): CartState {
@@ -63,7 +72,11 @@ function getServerCartSnapshot(): CartState {
 
 function writeCart(state: CartState): void {
   if (typeof window === 'undefined') return
-  window.localStorage.setItem(CART_KEY, JSON.stringify(state))
+
+  const raw = JSON.stringify(state)
+  window.localStorage.setItem(CART_KEY, raw)
+  lastRawCart = raw
+  lastParsedCart = state
   window.dispatchEvent(new Event(CART_EVENT))
 }
 
