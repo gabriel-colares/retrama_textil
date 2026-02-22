@@ -137,8 +137,8 @@ export function CatalogGrid() {
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${activeCategory === cat.id
-                  ? 'bg-primary text-primary-foreground'
-                  : 'bg-card border border-border text-muted-foreground hover:text-foreground hover:border-primary/30'
+                ? 'bg-primary text-primary-foreground'
+                : 'bg-card border border-border text-muted-foreground hover:text-foreground hover:border-primary/30'
                 }`}
             >
               {cat.label}
@@ -151,7 +151,7 @@ export function CatalogGrid() {
         {filtered.length} {filtered.length === 1 ? 'produto encontrado' : 'produtos encontrados'}
       </p>
 
-      <div ref={gridRef} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div ref={gridRef} className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
         {filtered.map((product) => (
           <ProductCard key={product.id} product={product} unit={unit} />
         ))}
